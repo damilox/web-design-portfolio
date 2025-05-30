@@ -199,6 +199,10 @@ body {
 #portfolio {
   padding: 50px 0;
 }
+#portfolio h6 {
+  text-decoration: underline;
+  color: #ff004f;
+}
 .work-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
