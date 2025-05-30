@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-website</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/0e39c170a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- This is the beginning of header section-->
+    <div id="header">
+      <div class="container">
+        <nav class="nav-bar">
+          <img src="./images/A-jet-logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <!-- <p>Web Developer</p> -->
+          <h1>
+            <span>Ajetomobi</span>
+            Damilola
+          </h1>
+          <p>Web Designer.<span>Problem Solver.</span> Visual Thinker.</p>
+        </div>
+        <div class="icon">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/damilola.ajetomobi.792"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://wa.me/qr/U63IOL4N3QGJI1"
+              ><i class="fa-brands fa-square-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ajetomobi_damilola?igsh=ZGU2N211M3NvYjBk"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://github.com/damilox"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This is the ending of header section-->
+
+    <!---this is the about me section-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="./images/about-dami.jpg" alt="" />
+          </div>
+          <div class="col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              "I'm Damilola, a passionate tech enthusiast, creative
+              entrepreneur, and advocate for personal transformation. With
+              expertise in web development, graphic design, and business
+              strategy, I enjoy creating innovative solutions that make a
+              meaningful impact. Beyond technology, I am dedicated to inspiring
+              youth by sharing insights on success, spirituality, and personal
+              growth. As the founder of A-JET Innovative, I strive to merge
+              creativity and technology to solve problems and build platforms
+              that empower individuals. My journey is fueled by a commitment to
+              excellence, a desire to make a difference, and a belief that
+              everyone has the potential to achieve greatness with the right
+              mindset and tools. Whether through tech, business, or inspiring
+              content, my goal is to help others unlock their full potential."
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <!--END OF TAB TITLES-->
+
+            <!--BEGINING OF TAB CONTENTS-->
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Responsive Web Design</span><br />
+                  Creating websites that look great on all devices
+                </li>
+                <li>
+                  <span> Brand-Consistent Design</span><br />Aligning websites
+                  with brand identity and messaging
+                </li>
+                <li>
+                  <span>Content Presentation</span><br />Organizing content in
+                  visually appealing and easy-to-navigate ways
+                </li>
+              </ul>
+            </div>
+
+            <!--BEGINING OF TAB CONTENTS-->
+
+            <!--BEGINING OF TAB CONTENTS for experience-->
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>2025 - current</span><br />
+                  Web DesignTraining at Alpha Tech Institute
+                </li>
+                <li><span> 2023-2024</span><br />Team Lead at MTR BizTech</li>
+                <li>
+                  <span>2024-2025</span><br />Internship at skyfig technologies
+                </li>
+              </ul>
+            </div>
+
+            <!--BEGINING OF TAB CONTENTS-->
+
+            <!--BEGINING OF TAB CONTENTS for education-->
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>2025</span><br />
+                  Designing Web interfaces using differnt coding tools
+                </li>
+                <li><span> 2024</span><br />Frontend Development</li>
+                <li><span>2023</span><br />Web Design</li>
+              </ul>
+            </div>
+
+            <!--ENDING  OF TAB CONTENTS-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------SERVICES------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              A detail-oriented web designer focused on creating clean,
+              user-friendly, and visually appealing websites. Passionate about
+              turning ideas into impactful digital experiences.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Website Maintenance</h2>
+            <p>
+              Ongoing updates, bug fixes, and content changes to keep your site
+              fresh, secure, and running smoothly
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Basic SEO Optimization</h2>
+            <p>
+              Structuring your site for better visibility on search engines with
+              clean design, proper tags, and mobile-friendly layouts.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Offer</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/ben-kolde-bs2Ba7t69mM-unsplash.jpg" />
+            <div class="layer">
+              <h3>Custom Website Design</h3>
+              <p>
+                I design fully responsive and visually appealing websites
+                tailored to your brand. From colors to layout, everything is
+                built to reflect your message.
+              </p>
+              <a href="https://kidstechbase.net/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/markus-spiske-1LLh8k2_YFk-unsplash.jpg" />
+            <div class="layer">
+              <h3>Landing Page Design</h3>
+              <p>
+                Need a single-page site to showcase an idea, product, or event?
+                I design clean, high-converting landing pages that capture
+                attention.
+              </p>
+              <a href="https://pysistech.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/arthur-edelmans-iNUvKXrQP2U-unsplash.jpg" />
+            <div class="layer">
+              <h3>Website Redesign</h3>
+              <p>
+                If your current site looks outdated or hard to navigate, I can
+                give it a fresh, modern look while keeping your identity intact.
+              </p>
+              <a href="https://lubrex.net/passenger-car-motor-oil-pcmo/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg" />
+            <div class="layer">
+              <h3>E-commerce Website Design</h3>
+              <p>
+                I design fully responsive and visually appealing websites
+                tailored to your brand. From colors to layout, everything is
+                built to reflect your message.
+              </p>
+              <a href="https://pysistech.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/markus-winkler-dBbdZGwL44U-unsplash.jpg" />
+            <div class="layer">
+              <h3>WordPress & No-Code Site Setup</h3>
+              <p>
+                If you need a fast and simple website, I can build or customize
+                it using WordPress, Elementor, or other beginner-friendly
+                platforms.
+              </p>
+              <a href="https://pysistech.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/prince-mathews-QZWF5RNYimw-unsplash.jpg" />
+            <div class="layer">
+              <h3>Responsive Design</h3>
+              <p>
+                Every website I design looks great on phones, tablets, and
+                desktops — ensuring your visitors always have a smooth
+                experience.
+              </p>
+              <a href="https://lubrex.net/passenger-car-motor-oil-pcmo/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
+
+    <!--------------- CONTACT----------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope-circle-check"></i
+              >ajetomobidamilola222@gmail.com
+            </p>
+            <p><i class="fas fa-phone-square-alt"></i>08034842283</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/damilola.ajetomobi.792"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://wa.me/qr/U63IOL4N3QGJI1"
+                ><i class="fa-brands fa-square-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/ajetomobi_damilola?igsh=ZGU2N211M3NvYjBk"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://github.com/damilox"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"> </span>
+          </div>
+        </div>
+      </div>
+      <button id="backToTop" title="Go to top">↑</button>
+
+      <div class="copyright">
+        <p>Copyright &copy; Damilox. Made by A-JET INNOVATIVE</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx0Rd_M7TM9awyygUoq6jtIXWtAb13kfVxaKK2YK-9twNjfiZ1OtLDtuTecbdtMTUQ-/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script>
+      const backToTopBtn = document.getElementById("backToTop");
+
+      // Show button after scrolling down 200px
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+
+      // Scroll to top on click
+      backToTopBtn.onclick = function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+    </script>
+  </body>
+</html>
